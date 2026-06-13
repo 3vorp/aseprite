@@ -45,7 +45,7 @@
         <color id="textbox_text" value="#c0c0c0"/>
         <color id="textbox_face" value="#41444a"/>
         <color id="textbox_code_face" value="#eeeeee"/>
-        <color id="entry_suffix" value="#c6c6c6"/>
+        <color id="entry_suffix" value="#7d7d7d"/>
         <color id="link_text" value="#6e9adb"/>
         <color id="link_hover" value="#e1b85f"/>
         <color id="button_normal_text" value="#c0c0c0"/>
@@ -60,7 +60,7 @@
         <color id="menuitem_normal_face" value="#2c2c30"/>
         <color id="menuitem_hot_text" value="#d9d9d9"/>
         <color id="menuitem_hot_face" value="#2c2c30"/>
-        <color id="menuitem_highlight_text" value="#2c2c30"/>
+        <color id="menuitem_highlight_text" value="#ffffff"/>
         <color id="menuitem_highlight_face" value="#575b61"/>
         <color id="window_face" value="#2c2c30"/>
         <color id="window_titlebar_text" value="#c0c0c0"/>
@@ -92,13 +92,13 @@
         <color id="workspace_text" value="#c0c0c0"/>
         <color id="workspace_link" value="#6e9adb"/>
         <color id="workspace_link_hover" value="#e1b85f"/>
-        <color id="timeline_normal" value="#41444a"/>
+        <color id="timeline_normal" value="#292b30"/>
         <color id="timeline_normal_text" value="#7d7d7d"/>
-        <color id="timeline_hover" value="#d9d9d9"/>
+        <color id="timeline_hover" value="#2f3136"/>
         <color id="timeline_hover_text" value="#c0c0c0"/>
-        <color id="timeline_active" value="#c0c0c0"/>
+        <color id="timeline_active" value="#41444a"/>
         <color id="timeline_active_text" value="#d9d9d9"/>
-        <color id="timeline_active_hover" value="#99b3c2"/>
+        <color id="timeline_active_hover" value="#575b61"/>
         <color id="timeline_active_hover_text" value="#ffffff"/>
         <color id="timeline_clicked" value="#536069"/>
         <color id="timeline_clicked_text" value="#c0c0c0"/>
@@ -109,7 +109,7 @@
         <color id="status_bar_text" value="#7d7d7d"/>
         <color id="status_bar_face" value="#333333"/>
         <color id="flag_normal" value="#2c2c30"/>
-        <color id="flag_active" value="#c75a68"/>
+        <color id="flag_active" value="#d82f45"/>
         <color id="flag_clicked" value="#41444a"/>
         <color id="select_box_ruler" value="#0000ff"/>
         <color id="select_box_grid" value="#64c864"/>
@@ -1142,8 +1142,8 @@
         <style id="symmetry_options" extends="context_bar_text_button" padding-left="3" padding-bottom="3"/>
         <style id="corner_radius_field" extends="context_bar_button" padding-left="1"/>
         <style id="pal_edit_lock" extends="buttonset_item_icon" width="15">
-            <icon part="timeline_closed_padlock_normal"/>
-            <icon part="timeline_closed_padlock_normal" state="capture selected"/>
+            <icon part="timeline_closed_padlock_active"/>
+            <icon part="timeline_closed_padlock_active" state="capture selected"/>
         </style>
         <style id="pal_edit_unlock" extends="buttonset_item_icon_active" width="15">
             <icon part="timeline_open_padlock_active"/>
